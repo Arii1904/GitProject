@@ -37,5 +37,34 @@ def relacion(num1, num2):
     else:
        return 0
 
-
 print (relacion(2, 2))
+
+#Ejercicio 3
+def intermedio(num1, num2):
+    # Instrucción 1
+    suma = num1 + num2
+    inter = suma / 2
+    return inter
+
+print (intermedio(10, 24))
+
+
+#Ejercicio 4
+def separar(lista):
+    # Instrucción 1
+
+  lista1 = []
+  lista2 = []
+  i = 0
+  for numero in lista:
+
+
+     if (numero % 2 == 0 ):
+         lista1.append(numero)
+
+     else:
+         lista2.append(numero)
+
+  return lista1,lista2
+
+print(separar([1,2,4]))
