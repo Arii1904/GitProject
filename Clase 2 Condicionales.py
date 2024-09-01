@@ -26,3 +26,17 @@ while (resultado == 0):
 
 
 print("Es impar")
+
+#Ejercicio 2
+primernro = int(input("Ingrese el primer numero "))
+segundonro = int(input("Ingrese el segundo numero "))
+sumar = primernro + segundonro
+restar = primernro - segundonro
+multiplicar = primernro * segundonro
+opcion = int(input("Porfavor elija una opción 1. sumar, 2. restar y 3.multiplicar"))
+if (opcion == 1):
+   print(f'El resultado es : {sumar}')
+elif (opcion == 2):
+     print(f'El resultado es : {restar}')
+else:
+     print(f'El resultado es : {multiplicar}')
