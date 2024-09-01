@@ -16,5 +16,12 @@
 numero1 = 1
 numero2 = 2
 print (numero1 + numero2)
+#Ejercicio 2
 
+#Se crean 2 variables que contiene una palabra cada una y muesta como resultado la concatenación de ambas palabras.
+
+palabra1 = "hola"
+
+palabra2 = "mundo"
+print (palabra1 + palabra2)
 
