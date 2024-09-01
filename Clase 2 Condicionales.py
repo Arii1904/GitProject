@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 # Name:        Clase 2
-# Author:      Arita
+# Author:      Ariadna Villagra
 
 #1. Pedir al usuario que ingrese un nro impar. Mientras que el usuario no ingrese un nro impar se
 #volverá a pedir que ingrese un nro impar. Deberá indicar por pantalla si es impar.
