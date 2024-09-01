@@ -1,0 +1,28 @@
+#-------------------------------------------------------------------------------
+# Name:        Clase 2
+# Author:      Arita
+
+#1. Pedir al usuario que ingrese un nro impar. Mientras que el usuario no ingrese un nro impar se
+#volverá a pedir que ingrese un nro impar. Deberá indicar por pantalla si es impar.
+#2. Pedir al usuario que ingrese dos nros. Luego imprimir 3 opciones (1. sumar, 2. restar y 3.
+#multiplicar). Pedir al usuario que ingrese una opción, ejecutar la operación y mostrar por
+#pantalla el resultado.
+#3. Definir una lista de números y mostrar por pantalla el valor promedio. No utilizar funciones
+#nativas sum() o len().
+#4. Definir una lista de números, encontrar el valor mínimo de la lista e imprimirlo. No utilizar la
+#función nativa min().
+#5. Cada punto debe estar en un commit diferente subido al repositorio remoto.
+
+#-------------------------------------------------------------------------------
+
+#Ejercicio 1
+nroimp = 2
+nro = 2
+resultado = nroimp % nro
+while (resultado == 0):
+    print (f'número {resultado}')
+    nroimp = int(input("Ingrese nro impar"))
+    resultado = nroimp % nro
+
+
+print("Es impar")
