@@ -40,3 +40,13 @@ elif (opcion == 2):
      print(f'El resultado es : {restar}')
 else:
      print(f'El resultado es : {multiplicar}')
+#Ejercicio 2
+#lista de num
+Listanum =[1,2,3]
+sumatotal = 0
+promedio = sumatotal / 3
+for sumanum in Listanum:
+ sumatotal += sumanum
+
+promedio = sumatotal / 3
+print("La promedio es = ",promedio)
