@@ -25,3 +25,10 @@ palabra1 = "hola"
 palabra2 = "mundo"
 print (palabra1 + palabra2)
 
+#Ejercicio 3
+# Solicita al usuario el ingreso de dos variables con el titulo DNI y Nombre y luego muestra en pantalla los datos ingresados.
+Nombre = input("Ingrese Nombre")
+Dni = input("Ingrese DNI")
+print (f'el nombre de usuario es  {Nombre}')
+print (f'el nombre de dni es  {Dni}')
+
