@@ -17,6 +17,7 @@
 #-------------------------------------------------------------------------------
 
 #Ejercicio 1
+
 def area_rectangulo(altura, base):
     # Instrucción 1
     area = altura * base
@@ -24,3 +25,17 @@ def area_rectangulo(altura, base):
     return area
 
 print (area_rectangulo(5, 4))
+
+#Ejercicio 2
+def relacion(num1, num2):
+    # Instrucción 1
+    if (num1 < num2):
+       return -1
+    elif (num1 > num2):
+       return 1
+
+    else:
+       return 0
+
+
+print (relacion(2, 2))
