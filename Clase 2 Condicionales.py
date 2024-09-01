@@ -40,7 +40,7 @@ elif (opcion == 2):
      print(f'El resultado es : {restar}')
 else:
      print(f'El resultado es : {multiplicar}')
-#Ejercicio 2
+#Ejercicio 3
 #lista de num
 Listanum =[1,2,3]
 sumatotal = 0
@@ -50,3 +50,15 @@ for sumanum in Listanum:
 
 promedio = sumatotal / 3
 print("La promedio es = ",promedio)
+
+#Ejercicio 4
+#lista de num
+Listanum =[1,2,3]
+valormin = Listanum[0]
+
+for num in Listanum:
+    if num < valormin:
+       valormin = num
+
+
+print("El valor minimo es = ",valormin)
