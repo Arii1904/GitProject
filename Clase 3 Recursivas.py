@@ -78,3 +78,22 @@ def bomba(numero):
 
 resultado = bomba(numero)
 print(resultado)
+
+#Ejercicio 5
+import random
+numero_aleatorio = random.randint(1,6)
+
+def dado(intento=1):
+
+ numero = int(input("Ingrese un numero "))
+ if numero == numero_aleatorio:
+  return f"SIII NUMERO CORRECTO,en el intento {intento}"
+ else:
+  print("nooo,ingrese otro numero")
+
+  return dado(intento+1)
+
+resultado = dado()
+print(resultado)
+
+
