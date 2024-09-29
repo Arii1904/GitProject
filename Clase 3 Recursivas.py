@@ -78,5 +78,3 @@ def bomba(numero):
 
 resultado = bomba(numero)
 print(resultado)
-
-#Ejercicio 5
