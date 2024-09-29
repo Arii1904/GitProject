@@ -49,4 +49,34 @@ lista = recursiva(len(vec) - 1)
 print("La lista es", lista)
 
 #Ejercicio 3
+lista=0
 a= [[23,45,63],[72,81,91],[56,64,37],[34,75,26]]
+
+def conteo(imax):
+
+ if imax < 0:
+  return[]
+ else:
+    lista = conteo(imax - 1)
+    lista.append(a[imax])
+    return lista
+
+lista = conteo(len(a) - 1)
+print(lista)
+
+#Ejercicio 4
+
+numero= 0
+numero = int(input("Ingrese un numero "))
+def bomba(numero):
+
+ if numero < 0:
+  return "BOOM"
+ else:
+  print(numero)
+  return bomba(numero - 1)
+
+resultado = bomba(numero)
+print(resultado)
+
+#Ejercicio 5
